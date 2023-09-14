@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-color: azure;
+  background-color: beige;
+  background-color: #9cf0af;
+
+}
+.header{
+  width: 100%;
+  font-size: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px black;
+background-color: #419755; 
+color: white;
+  text-decoration: none;
+}
+#nav{
+  text-decoration: none;
+  color: #ddd;
+}
+
+.stu_header{
+  max-width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: beige;
+  background-color: #9cf0af;
+  font-size: 2.5vw;
+
+}
+.stu_header button{
+  border-radius: 5px;
+  height: 50px;
+}
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.but{
+  text-decoration: none;
+  font-size: 20px;
+  width: 100px;
+  padding: 10px;
+  /* background-color: red; */
+}
+table{
+  width: 90%;
+  /* border: solid 1px black; */
+  border-spacing: 0px;
+  margin: auto;
+  /* row-gap: 0%; */
+  box-shadow: #419755 4px 4px 4px;
+ 
+}
+td ,th{
+  border-bottom: solid 1px black;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(odd){
+  background-color:#dffce6 ;
+}
+tr:nth-child(even){
+  background-color:#dffce6 ;
+}
+tr:hover{
+  background-color:#ddd ;
+}
+/* tr:nth-child(even):hover{
+  background-color:#dffce6 ;
+
+}
+tr:nth-child(odd):hover{
+  background-color:#fcdcdc ;
+} */
+input{
+  width: 12em;
+  height: 4em;
+  border-radius: .5em;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+label{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+
+}
+.editbuttton{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.editbuttton button{
+  padding: .5em;
+  font-size: 1em;
+  border-radius: 5px;
+  color: rgb(58, 56, 56);
+}
